@@ -4,6 +4,11 @@ PARAMETRITZACIONS DEL DJANGO-AULA
 Al fitxer settings.py (o settings_local.py)
 -------------------------------------------
 
+CUSTOM_MOSTRAR_MAJORS_EDAT = True
+    Si True, Si és major d'edat, mostra una nota en presència, al costat del nom de l'alumnat.
+CUSTOM_MARCA_MAJORS_EDAT = u' (^18)'
+    Nota que apareix al costat de l'alumnat en cas que sigui major d'edat.
+
 CUSTOM_RETARD_PROVOCA_INCIDENCIA
     Si True, cada retard d'un alumne provoca una incidència
     

@@ -189,6 +189,9 @@ DATABASES = {
     }
 }
 
+PRIVATE_STORAGE_ROOT ='/dades/fitxers_privats_djAu/'
+
+
 ```
 
 **`/opt/djau2019/aula/wsgi.py`**
